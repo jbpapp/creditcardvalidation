@@ -1,0 +1,1 @@
+$('input[name=card_number]').mask '9999-9999-9999-9999'
