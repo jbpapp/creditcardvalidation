@@ -40,10 +40,12 @@ h1 {
 		height: 52px;
 
 		& img {
+			filter: grayscale(100%);
 			padding: 4px;
 		}
 
 		&.selected img {
+			filter: grayscale(0%);
 			background: #a4d6d9;
 		}	
 	}

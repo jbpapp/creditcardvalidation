@@ -4864,8 +4864,12 @@ h1 {
     width: 81px;
     height: 52px; }
     .credit-cards .credit-card img {
+      -webkit-filter: grayscale(100%);
+              filter: grayscale(100%);
       padding: 4px; }
     .credit-cards .credit-card.selected img {
+      -webkit-filter: grayscale(0%);
+              filter: grayscale(0%);
       background: #a4d6d9; }
 
 
