@@ -12,16 +12,16 @@
 				{{ $errors->first('card_number', '<p class="help-block validation-error">:message</p>') }}
 			</div>
 			<div class="form-row credit-cards">
-				<div class="credit-card visa">
+				<div class="credit-card visa {{ (Session::get('card_type') == 'visa' ? 'selected' : '') }}">
 					<img src="images/visa.png" alt="Visa">
 				</div>
-				<div class="credit-card mastercard">
+				<div class="credit-card mastercard {{ (Session::get('card_type') == 'mastercard' ? 'selected' : '') }}">
 					<img src="images/mastercard.png" alt="Mastercard">
 				</div>
-				<div class="credit-card maestro">
+				<div class="credit-card maestro {{ (Session::get('card_type') == 'maestro' ? 'selected' : '') }}">
 					<img src="images/maestro.png" alt="Maestro">
 				</div>								
-				<div class="credit-card credit">
+				<div class="credit-card credit {{ (Session::get('card_type') == 'credit' ? 'selected' : '') }}">
 					<img src="images/credit.png" alt="Credit">
 				</div>				
 			</div>

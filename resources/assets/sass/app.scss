@@ -12,6 +12,10 @@
 
 		& img {
 			padding: 4px;
+		}
+
+		&.selected img {
+			background: #a4d6d9;
 		}	
 	}
 }
