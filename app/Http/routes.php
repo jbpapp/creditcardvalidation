@@ -11,4 +11,5 @@
 |
 */
 
-Route::get('/', 'WelcomeController@index');
+get('/', 'FormController@create');
+post('/', 'FormController@store');
