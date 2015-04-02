@@ -1,7 +1,7 @@
 @extends('layouts.default')
 
 @section('content')
-	<div class="col-sm-12 col-md-4 col-md-offset-4">
+	<div class="col-sm-12 col-md-4 col-md-offset-4 cc-form">
 		<h1>Credit Card Validation</h1>
 
 		<form action="{{ url('/') }}" method="post" id="credit-card-validator">
