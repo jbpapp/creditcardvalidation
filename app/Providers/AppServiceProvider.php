@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace CreditCardValidator\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

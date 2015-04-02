@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: CreditCardValidator
+        psr4_prefix: CreditCardValidator
         src_path: app

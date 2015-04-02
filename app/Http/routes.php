@@ -11,5 +11,5 @@
 |
 */
 
-get('/', 'FormController@create');
-post('/', 'FormController@store');
+get('/', 'FormController@show');
+post('/', 'FormController@validateCard');
