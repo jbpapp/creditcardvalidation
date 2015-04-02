@@ -5,6 +5,7 @@
 		<h1>Credit Card Validation</h1>
 
 		<form action="{{ url('/') }}" method="post" id="credit-card-validator">
+			<input type="hidden" name="_token" value="{{ csrf_token() }}" />
 			<div class="form-group">
 				<label for="card-number" class="sr-only control-label">Card number</label>
 				<input type="text" id="card-number" name="card_number" value="{{ old('card_number') }}" class="form-control" placeholder="Enter your credit card">
