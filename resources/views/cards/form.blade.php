@@ -10,6 +10,20 @@
 				<input type="text" id="card-number" name="card_number" value="{{ old('card_number') }}" class="form-control" placeholder="Enter your credit card">
 				{{ $errors->first('card_number', '<p class="help-block validation-error">:message</p>') }}
 			</div>
+			<div class="form-row credit-cards">
+				<div class="credit-card visa">
+					<img src="images/visa.png" alt="Visa">
+				</div>
+				<div class="credit-card mastercard">
+					<img src="images/mastercard.png" alt="Mastercard">
+				</div>
+				<div class="credit-card maestro">
+					<img src="images/maestro.png" alt="Maestro">
+				</div>								
+				<div class="credit-card credit">
+					<img src="images/credit.png" alt="Credit">
+				</div>				
+			</div>
 			<div class="form-group">
 				<button type="submit" class="btn btn-primary">
 					Validate

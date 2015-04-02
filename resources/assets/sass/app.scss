@@ -1,1 +1,17 @@
 @import 'bootstrap';
+
+.credit-cards {
+	float: left;
+	width: 100%;
+	margin-bottom: 15px;
+
+	.credit-card {
+		float: left;
+		width: 81px;
+		height: 52px;
+
+		& img {
+			padding: 4px;
+		}	
+	}
+}
